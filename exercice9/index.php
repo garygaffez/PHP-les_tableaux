@@ -9,9 +9,6 @@ $county = [
     '80' => 'Somme', 
 ];
 
-array_push($county, "Marne");
-// var_dump($county);
-
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +28,7 @@ array_push($county, "Marne");
 <?php
     foreach ($county as $key => $value) { ?>
     <p>
-        <?=$value;?>
+        <?=$key.' '.$value;?>
     </p>
     <?php
     }

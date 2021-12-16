@@ -31,7 +31,12 @@
 <div class="text-warning h3 p-5">
 
 <?php
-    array_splice($tabMonths, 7, 1, 'août');
+
+    // Pour modifier plusieurs index
+    //array_splice($tabMonths, 7, 1, 'août');
+
+    // pour un seul index plus rapide
+    $tabMonths[7] = 'août';
 
     echo '<pre>';
     print_r($tabMonths);

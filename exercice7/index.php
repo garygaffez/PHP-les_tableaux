@@ -9,8 +9,13 @@ $county = [
     '80' => 'Somme', 
 ];
 
-array_push($county, "Marne");
+$county[51] = 'Marne';
+
+//pour mettre en ordre croissant un tableau par son index
+ksort($county);
 var_dump($county);
+
+
 
 ?>
 

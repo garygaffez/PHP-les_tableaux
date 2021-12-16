@@ -9,8 +9,6 @@ $county = [
     '80' => 'Somme', 
 ];
 
-$county[59] = "Marne";
-// var_dump($county);
 
 ?>
 
